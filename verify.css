@@ -1,0 +1,68 @@
+html,
+body{
+    background-color: rgb(140, 207, 236);
+    height: auto;
+    background-size:contain;
+    background-repeat: repeat-y;
+}
+
+.form-verify{
+    border-radius: 3rem;
+    width: 330px;
+    padding-top: 2rem;
+}
+
+.form-verify .form-floating:focus-within {
+    z-index: 5;
+  }
+
+  .form-verify input[type="email"] {
+    box-shadow: 2px 2px 2px 0 rgba(98, 91, 91, 0.188);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+  }
+  
+  .form-verify input[type="name"] {
+    box-shadow: 2px 2px 2px 0 rgba(98, 91, 91, 0.188);
+    margin-bottom: 0;
+    margin-top: 0;
+    
+    
+  }
+  
+.card {
+   box-shadow: 3px 8px 8px 0 rgba(98, 91, 91, 0.676);
+   transition: 0.3s;
+   width: 100%;
+   padding: 20px;
+   padding-bottom: 1px;
+   border-radius: 2rem;
+   background-color: #fffefe;
+   ;
+  
+  }
+  
+.card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+  
+.btn{
+    border-radius: 1rem;
+    background-color: rgb(2, 73, 251);
+    box-shadow: 2px 3px 3px 0px rgba(105, 111, 118, 0.604);
+         --bd-violet-bg: #0749ff;
+         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  
+         --bs-btn-font-weight: 600;
+         --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #000000c2;
+        --bs-btn-hover-border-color: #33a1e5c2;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  }
+  
